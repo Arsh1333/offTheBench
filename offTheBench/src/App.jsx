@@ -1,6 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import { Link } from "react-router-dom";
 import "./App.css";
 
 function App() {
@@ -9,6 +8,8 @@ function App() {
   return (
     <>
       <h1 className="text-black underline">First Page</h1>
+      <Link to="/home">Home</Link>
+      <Link to="/canvas">Canvas</Link>
     </>
   );
 }
